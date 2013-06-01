@@ -3,7 +3,7 @@ Conference Open Data
 一年365天月月有研討會，厚厚的議程表似乎沒有人特地整理成開放資料？
 這個 repo 試著建立一個描述 conference 議程的格式，還請各位不吝 pull request 啊。
 
-資料型別
+型別規範
 --------
 * string / int / real
 * entity（擁有固定屬性的 map）
@@ -27,7 +27,7 @@ Conference Open Data
 	- `start`, `end` - time : 議程時間
 	- `speakers`
 		+ tag
-		+ map（以 string : 講者為索引，string[] : 頭銜或敘述為值）
+		+ dict（string : 講者 → string[] : 頭銜/敘述）
 	- `location`
 		+ tag
 		+ string `"*"`（所有同時段場地）
