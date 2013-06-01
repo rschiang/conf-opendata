@@ -1,0 +1,66 @@
+{
+	"name": "COSCUP 2013",
+	"location": "台北國際會議中心",
+	"agenda": [
+		{
+			"name": "報到",
+			"start": 1375488900,
+			"end": 1375491600
+		},
+		{
+			"name": "Opening / 開幕式",
+			"speaker": "COSCUP Organizer",
+			"start": 1375491600,
+			"end": 1375492200
+		},
+		{
+			"name": "Open Data Initiatives for Taiwan",
+			"speakers": {"張善政" : ["行政院政務委員"]},
+			"location": "*",
+			"type": "Open Data",
+			"start": 1375492200,
+			"end": 1375494000
+		},
+		{
+			"name": "延伸座談",
+			"speakers": {
+				"葉平": ["主持人"],
+				"張善政" : ["與會者"],
+				"翟本喬" : ["與會者"],
+				"莊庭瑞" : ["與會者"],
+				"高嘉良" : ["與會者"]
+			},
+			"location": "*",
+			"type": "Open Data",
+			"start": 1375494000,
+			"end": 1375495800
+		},
+		{
+			"name": "Break",
+			"start": 1375495800,
+			"end": 1375496100
+		},
+		{
+			"name": "Keynote",
+			"start": 1375496100,
+			"end": 1375499700
+		},
+		{
+			"name": "Osmocom - Open Source MObile COMmunications",
+			"speaker": "Harald Welte",
+			"location": "201B",
+			"type": "OS & Embedded System",
+			"start": 1375499700,
+			"end": 1375501500
+		},
+		{
+			"name": "OpenOffice and Open Business, with Apache OpenOffice 4.0",
+			"community": "OpenOffice/LibreOffice 社群聯合",
+			"speaker": "依瑪貓 (楊士青)",
+			"location": "201C",
+			"type": "Open Data",
+			"start": 1375499700,
+			"end": 1375501500
+		},
+	]
+}
