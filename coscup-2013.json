@@ -1,6 +1,9 @@
 {
 	"name": "COSCUP 2013",
-	"location": "台北國際會議中心",
+	"location": {
+		"name": "台北國際會議中心",
+		"address": "台北市信義區信義路五段1號"
+		},
 	"agenda": [
 		{
 			"name": "報到",
